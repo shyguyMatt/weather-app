@@ -35,10 +35,10 @@ load()
 
 // gets latitude and longetude from city name
 function load() {
-    let geoLocation = 'http://api.openweathermap.org/geo/1.0/direct?q='+inputEl.value+'&limit=1&appid='+apiKey;   
+    let geoLocation = 'https://api.openweathermap.org/geo/1.0/direct?q='+inputEl.value+'&limit=1&appid='+apiKey;   
 
     if (inputEl.value.trim()  == '') {
-        geoLocation = 'http://api.openweathermap.org/geo/1.0/direct?q='+buttons.children[0].textContent+'&limit=1&appid='+apiKey;
+        geoLocation = 'https://api.openweathermap.org/geo/1.0/direct?q='+buttons.children[0].textContent+'&limit=1&appid='+apiKey;
     }
 
     fetch(geoLocation)
