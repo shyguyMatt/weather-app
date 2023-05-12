@@ -15,12 +15,13 @@
             <input placeholder="San Diego">
             <button id="search">search</button>
             <div class="spacer"></div>
-            <button class="cityBtn">example city button</button>
+            <div id="buttons"></div>
         </div>
 
         <div id="weatherPanel">
             <div id="current">
-                <h2>Example City<span id="currentDate">10/10/1010</span><span id="currentEmojii"></span></h2>
+                <h2 style="display: inline" id="cityName">Example City </h2>
+                <h2 style="display: inline"><span id="currentDate">10/10/1010</span><img id="currentEmojii"></img></h2>
                 <p>Temp: <span id="currentTemp">example temp</span></p>
                 <p>Wind: <span id="currentWind">example wind</span></p>
                 <p>Humidity: <span id="currentHumidity">example humidity</span></p>
@@ -29,43 +30,45 @@
                 <h3>5-Day Forcast</h3>
                 <div id="weatherCards">
                     <div class="weatherCard">
-                        <h3 id="futureDate">example Date</h3>
-                        <p id="futureEmojii">weather emojii</p>
-                        <p>Temp: <span id="futureTemp">example temp</span></p>
-                        <p>Wind: <span id="futureWind">example temp</span></p>
-                        <p>Humidity: <span id="futureHumidity">example temp</span></p>
+                        <h3 class="futureDate">example Date</h3>
+                        <img class="futureEmojii"></img>
+                        <p>Temp: <span class="futureTemp">example temp</span></p>
+                        <p>Wind: <span class="futureWind">example temp</span></p>
+                        <p>Humidity: <span class="futureHumidity">example temp</span></p>
                     </div>
                     <div class="weatherCard">
-                        <h3 id="futureDate">example Date</h3>
-                        <p id="futureEmojii">weather emojii</p>
-                        <p>Temp: <span id="futureTemp">example temp</span></p>
-                        <p>Wind: <span id="futureWind">example temp</span></p>
-                        <p>Humidity: <span id="futureHumidity">example temp</span></p>
+                        <h3 class="futureDate">example Date</h3>
+                        <img class="futureEmojii"></img>
+                        <p>Temp: <span class="futureTemp">example temp</span></p>
+                        <p>Wind: <span class="futureWind">example temp</span></p>
+                        <p>Humidity: <span class="futureHumidity">example temp</span></p>
                     </div>
                     <div class="weatherCard">
-                        <h3 id="futureDate">example Date</h3>
-                        <p id="futureEmojii">weather emojii</p>
-                        <p>Temp: <span id="futureTemp">example temp</span></p>
-                        <p>Wind: <span id="futureWind">example temp</span></p>
-                        <p>Humidity: <span id="futureHumidity">example temp</span></p>
+                        <h3 class="futureDate">example Date</h3>
+                        <img class="futureEmojii"></img>
+                        <p>Temp: <span class="futureTemp">example temp</span></p>
+                        <p>Wind: <span class="futureWind">example temp</span></p>
+                        <p>Humidity: <span class="futureHumidity">example temp</span></p>
                     </div>
                     <div class="weatherCard">
-                        <h3 id="futureDate">example Date</h3>
-                        <p id="futureEmojii">weather emojii</p>
-                        <p>Temp: <span id="futureTemp">example temp</span></p>
-                        <p>Wind: <span id="futureWind">example temp</span></p>
-                        <p>Humidity: <span id="futureHumidity">example temp</span></p>
+                        <h3 class="futureDate">example Date</h3>
+                        <img class="futureEmojii"></img>
+                        <p>Temp: <span class="futureTemp">example temp</span></p>
+                        <p>Wind: <span class="futureWind">example temp</span></p>
+                        <p>Humidity: <span class="futureHumidity">example temp</span></p>
                     </div>
                     <div class="weatherCard">
-                        <h3 id="futureDate">example Date</h3>
-                        <p id="futureEmojii">weather emojii</p>
-                        <p>Temp: <span id="futureTemp">example temp</span></p>
-                        <p>Wind: <span id="futureWind">example temp</span></p>
-                        <p>Humidity: <span id="futureHumidity">example temp</span></p>
+                        <h3 class="futureDate">example Date</h3>
+                        <img class="futureEmojii"></img>
+                        <p>Temp: <span class="futureTemp">example temp</span></p>
+                        <p>Wind: <span class="futureWind">example temp</span></p>
+                        <p>Humidity: <span class="futureHumidity">example temp</span></p>
                     </div>                    
                 </div>
 
             </div>
         </div>
+       <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>   
+        <script src="assets/js/script.js"></script> 
     </body>
 </html>
